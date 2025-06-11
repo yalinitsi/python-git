@@ -1,0 +1,62 @@
+# === Python Bytecode ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Virtual Environments ===
+venv/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# === VS Code Settings ===
+.vscode/
+*.code-workspace
+
+# === Jupyter Notebooks Checkpoints ===
+.ipynb_checkpoints/
+
+# === OS Files ===
+.DS_Store          # macOS
+Thumbs.db          # Windows
+
+# === Log and Output Files ===
+*.log
+*.out
+*.bak
+*.tmp
+
+# === Distribution / Packaging ===
+build/
+dist/
+*.egg-info/
+
+# === Test Output ===
+htmlcov/
+coverage.xml
+*.cover
+.cache/
+nosetests.xml
+pytest_cache/
+.tox/
+
+# === Environment Variable Files ===
+*.env
+.env.*
+
+# === MyPy / Pyre Type Checker ===
+.mypy_cache/
+.pyre/
+
+# === SQLite / DB files ===
+*.sqlite3
+*.db
+
+# === Anaconda / Conda ===
+*.conda
+*.ipynb
+
+# === Docker ===
+*.pid
+docker-compose.override.yml
