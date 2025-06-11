@@ -1,0 +1,7 @@
+scrapy
+io
+urllib.requests
+re
+py2PDF2
+datetime
+
